@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Satisfy&family=Sora:wght@100..800&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora",sans-serif;
+}
+.container{width:90% !important ;}
+
+/* header */
+
+ header{
+    height: 100vh;
+    background-image: url(../img/home.jpg);
+    background-position: center center;
+    background-size: 100%;
+    /* filter: grayscale(100%); */
+    background-color:rgba( 0,0,0,.7);
+    background-blend-mode: overlay;
+}
+.home{height: 100%;}
+
+.home .left p{ 
+     font-size: 18px;
+    font-weight: 500;}
+
+    .home .left h1 , .home .left h2 { 
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+    .home .left h2 span{font-family: "Satisfy","cursive";}
+/* img */
+    .img img{
+    cursor: pointer;
+    filter: grayscale(100%);
+     transition:filter .3s;
+    }
+    .img img:hover{filter: none;}
+
+  
+    /* <!-- how we can help you --> */
+    .title h2,.lastProj h2,.Discover h2 ,.Skill h2 ,.news h2 ,.testimonial h2,.contact h2{
+        color: #121820;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+    .title h2 span ,.child-box h5 span{color: #f57c00;}
+    
+    .content-child h4{
+        color: #121820;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+    
+    .child-box h5{
+    font-size: 18px;
+    color: #121820;
+    font-weight: 600;
+    line-height: 140%;}
+
+    /*  <!-- Latest Projects --> */
+  
+    .img-caption h3 , .img-caption h6 ,.imgnews-caption h3 ,.imgnews-caption h6{
+        color: #121820;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+    .img-caption h6,.imgnews-caption h6{font-size: 16px;}
+    
+    .img-caption p{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+   .img-card {
+    overflow:hidden;
+     border-radius: 10px;
+    height: 350px;
+}
+/*  */
+.bg-gray-100{background-color: rgba(18,24,32,.05);}
+
+/*  <!-- Discover Our Company --> */
+.Discover .title small{
+    color: #121820;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+
+/* .Discover .title small::before{
+content: "";
+width: 7px;
+height: 7px;
+border-radius: 50%;
+background-color: #f57c00;
+position: absolute;
+left: 0;
+top: 9px;} */
+
+
+.discover-child small,.Skill small ,.news small ,.testimonial small,.skill-child h4,.testimonial-content h6{
+    color: #121820;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+
+.imgnews-card{
+    overflow:hidden;
+    border-radius: 10px;
+}
+   .lastProj-child img ,.lastnews-child img{
+    filter: grayscale(100%);
+    transition:filter .1s;
+    transition: scale .2s;
+   }
+
+   .lastProj-child img:hover ,.lastnews-child img:hover{
+    filter: none;
+    scale: 1.2;
+   }
+   /* testimonial */
+   .testimonial img{
+    filter: grayscale(100%);
+     transition:filter .1s;
+   }
+
+   .testimonial img:hover{filter: none;}
+   /* contact  */
+   
+   .contact h2{color: white;}
+   .bf-footer{
+    /* height: 100vh; */
+    background-image: url(../img/map.png);
+   
+    background-position: center ;
+    background-size: 100% ;
+    background-color:rgba( 0,0,0,.9);
+    background-blend-mode:overlay;
+   }
+   .bf-footer h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+   }

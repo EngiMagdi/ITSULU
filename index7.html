@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="css/style.css">
+    <title>ITSulu</title>
+</head>
+<body>
+
+
+  <!-- header -->
+  <header >
+      <!-- nav -->
+   <nav class="bg-gray-100  text-black fixed right-0 left-0 top-0 z-50">
+     <div class="container mx-auto  px-2 sm:px-6 lg:px-8">
+       <div class="relative flex h-16 items-center justify-between">
+         <!-- logo -->
+         <div class="  flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <img class="h-8 w-auto" src="img/logo-dark.c2f49099.png" alt="">
+         </div>
+
+         <div class=" absolute  right-0   flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          
+           <div class="hidden  lg:block">
+             <div class="flex space-x-4 justify-center items-center">
+             
+               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+               <a href="#" class=" hover:text-yellow-400  text-sm font-medium px-3 py-2" aria-current="page">Enterprise</a>
+               <a href="#" class=" hover:text-yellow-400 px-3 py-2 text-sm font-medium"> Case Studies</a>
+               <a href="#" class="hover:text-yellow-400  px-3 py-2 text-sm font-medium">Services</a>
+               <a href="#" class=" hover:text-yellow-400 md px-3 py-2 text-sm font-medium">Solutions</a>
+               <a href="#" class=" hover:text-yellow-400 px-3 py-2 text-sm font-medium">Blog</a>
+               <a href="#" class="hover:text-yellow-400  px-3 py-2 text-sm font-medium">Contact Us</a>
+               <a href="#" class="  hover:text-yellow-400 md px-3 py-2 text-sm font-medium">Other</a>
+               <a href="#" class="  hover:text-yellow-400 md px-3 py-2 text-sm font-medium"><i class="fa-solid fa-magnifying-glass"></i></a>
+             </div>
+           </div>
+         </div>
+         
+        
+
+         <div class="absolute inset-y-0 right-0 flex items-center justify-center lg:hidden">
+           <!-- Mobile menu button-->
+           <button id="menuebtn" type="button" class=" relative inline-flex items-center justify-center p-2 " aria-controls="mobile-menu" aria-expanded="false">
+             <span class="absolute -inset-0.5"></span>
+             <span class="sr-only">Open main menu</span> 
+             <!--
+               Icon when menu is closed.
+   
+               Menu open: "hidden", Menu closed: "block"
+             -->
+             <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+             </svg>
+             <!--
+               Icon when menu is open.
+   
+               Menu open: "block", Menu closed: "hidden"
+             -->
+             <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12 " />
+             </svg>
+           </button>
+         </div>
+         
+       </div>
+     <!-- Mobile menu, show/hide based on menu state. -->
+     <div class="lg:hidden flex justify-center w-auto" id="mobile-menu">
+       <div class="space-y-1 px-2 pb-3 pt-2  ">
+         <a href="#" class=" hover:text-yellow-400  text-sm font-medium px-3 py-2 block" aria-current="page">Enterprise</a>
+               <a href="#" class=" hover:text-yellow-400 px-3 py-2 text-sm font-medium block"> Case Studies</a>
+               <a href="#" class="hover:text-yellow-400  px-3 py-2 text-sm font-medium block">Services</a>
+               <a href="#" class=" hover:text-yellow-400 md px-3 py-2 text-sm font-medium block">Solutions</a>
+               <a href="#" class=" hover:text-yellow-400 px-3 py-2 text-sm font-medium block">Blog</a>
+               <a href="#" class="hover:text-yellow-400  px-3 py-2 text-sm font-medium block">Contact Us</a>
+               <a href="#" class="  hover:text-yellow-400 md px-3 py-2 text-sm font-medium block">Other</a>
+         </div> 
+     </div>
+     </div>
+   </nav>
+    
+   <!-- home -->
+   <div class="home container mx-auto flex justify-between items-center ">
+    
+    
+           <div class="left">
+             <p class=" text-white  pb-9 ">The Next <span class="text-orange-500 "> Gen</span></p>
+             <h1 class=" text-white pb-2 ">WE PROVIDE SERVICES</h1>
+             <h2 class=" text-white flex row  gap-1">AND SOLUTIONS <span class="text-orange-500 "> To Enterprise</span></h2>
+             
+             
+             <div class="flex pt-14 gap-5 ">
+               <button class=" text-white  border-2 border-orange-500 py-4 px-12 rounded-full hover:border-4 transition-all duration-100   "><a href="#">let's Talk</a> </button>
+               <div class="caption  ">
+                 <p class=" text-gray-400 ms-7 ">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua.</p>
+               </div>
+             </div>
+
+           
+           </div>
+         </div>
+ 
+
+
+
+  </header>
+
+  
+
+     <!-- img -->
+     <section class="img ">
+       <div class="  container mx-auto  py-16   ps-10  flex justify-center items-center gap-5  grid grid-cols-2 lg:grid-cols-6  ">
+         <img src="img/1.png" alt="" class="h-11 w-40 ">
+         <img src="img/2.png" alt="" class="h-11 w-40 ">
+         <img src="img/3.png" alt="" class="h-11 w-40 ">
+         <img src="img/4.png" alt="" class="h-11 w-40 ">
+         <img src="img/5.png" alt="" class="h-11 w-40 ">
+         <img src="img/6.png" alt="" class="h-11 w-40 ">
+     </div>
+     </section>
+   
+     <!-- brd -->
+    <div class="brd flex container mx-auto w-11/12 ">
+     <div class=" border-b-2 b border-orange-300 w-7"></div>
+     <div class=" container mx-2 border-b-2 "></div>
+     <div class=" border-b-2 b border-orange-300 w-7"></div>
+    </div>
+
+
+    <!-- how we can help you -->
+    <section class="">
+     <div class="container mx-auto ">
+
+      <div class="title  flex   justify-between w-10/12 ">
+       <h2 class=" mt-24"> How We Can <span class="text-amber-400"> Help You</span></h2>
+       <img src="img/deco-1.07790e8b (1).svg " alt="" class="w-2/12">
+      </div>
+
+      <!-- content -->
+      <div class="content flex  justify-between gap-1 grid grid-cols-1 lg:grid-cols-2">
+       <div class="content-child">
+         <h4 class="  my-7">IT Services</h4>
+         <!-- brd -->
+           <div class="brd flex container ">
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+             <div class=" container mx-2 border-b-2 "></div>
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+           </div>
+
+           <div class="child-box flex gap-9 my-5">
+             <div class="icon w-2/12 ms-5"><img src="img/1.svg" alt="" srcset="" class="2/12"></div>
+             <div class="caption">
+              <h5 class=" mb-5"> <span class=" me-2"> 01 </span>Dedicated Team </h5> 
+              <p class="text-gray-400 w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+             </div>
+           </div>
+
+            <!-- brd -->
+            <div class="brd flex container   ">
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+             <div class=" container mx-2 border-b-2 "></div>
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+           </div>
+
+           <div class="child-box flex gap-9 my-5">
+             <div class="icon w-2/12 ms-5"><img src="img/2.svg" alt="" srcset="" class="2/12"></div>
+             <div class="caption">
+              <h5 class=" mb-5"> <span class=" me-2"> 02 </span> QA and Testing </h5> 
+              <p class="text-gray-400  w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+             </div>
+           </div>
+            <!-- brd -->
+            <div class="brd flex container  ">
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+             <div class=" container mx-2 border-b-2 "></div>
+             <div class=" border-b-2 b border-orange-500 w-7"></div>
+           </div>
+
+           <div class="child-box flex gap-9 my-5">
+             <div class="icon w-2/12 ms-5"><img src="img/3.svg" alt="" srcset="" class="2/12"></div>
+             <div class="caption">
+              <h5 class="  mb-5"> <span class=" me-2"> 03 </span> SaaS</h5> 
+              <p class="text-gray-400 w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+             </div>
+           </div>
+         </div>
+         <div class="content-child">
+           <h4 class=" my-7">IT Solutions</h4>
+           <!-- brd -->
+             <div class="brd flex container  ">
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+               <div class=" container mx-2 border-b-2 "></div>
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+             </div>
+ 
+             <div class="child-box flex gap-9 my-5">
+               <div class="icon w-2/12 ms-5"><img src="img/4.svg" alt="" srcset="" class="2/12"></div>
+               <div class="caption">
+                <h5 class=" mb-5"> <span class="me-2"> 04 </span> Blockchain </h5> 
+                <p class="text-gray-400 w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 
+               </div>
+             </div>
+ 
+              <!-- brd -->
+              <div class="brd flex container ">
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+               <div class=" container mx-2 border-b-2 "></div>
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+             </div>
+ 
+             <div class="child-box flex gap-9 my-5">
+               <div class="icon w-2/12 ms-5"><img src="img/5.svg" alt="" srcset="" class="2/12"></div>
+               <div class="caption">
+                <h5 class=" mb-5"> <span class=" me-2"> 05 </span>Artificial Intelligence </h5> 
+                <p class="text-gray-400 w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 
+               </div>
+             </div>
+              <!-- brd -->
+              <div class="brd flex container ">
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+               <div class=" container mx-2 border-b-2 "></div>
+               <div class=" border-b-2 b border-orange-500 w-7"></div>
+             </div>
+ 
+             <div class="child-box flex justify-around  my-5">
+               <div class="icon w-2/12 ms-5"><img src="img/6.svg" alt="" srcset="" class="2/12"></div>
+               <div class="caption ms-7">
+                <h5 class=" mb-5"> <span class=" me-2"> 06 </span> Internet of Things </h5> 
+                <p class="text-gray-400 w-11/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 
+               </div>
+             </div>
+           </div>
+       </div>
+     </div> 
+    </section>
+    
+
+     <!-- brd -->
+     <div class="brd flex container mx-auto  ">
+       <div class=" border-b-2 b border-orange-500 w-7"></div>
+       <div class=" container mx-2 border-b-2 "></div>
+       <div class=" border-b-2 b border-orange-500 w-7"></div>
+     </div>
+
+     <!-- Latest Projects -->
+     <section class=" lastProj py-9">
+       <div class="container mx-auto">
+         <img src="img/deco-1.07790e8b (1).svg " alt="" class="w-2/12 mx-auto">
+         <h2 class=" py-7">Latest Projects</h2>
+ 
+         <!-- "lastProj-content -->
+         <div class="lastProj-content gap-5 flex grid grid-cols-1 md:grid-cols-2 mt-8">
+            <div class="lastProj-child ">
+           <div class="img-card overflow-hidden"><img src="img/project1.jpg" alt="" width="100%" height="100%" class="rounded-lg"></div>
+          
+           <!-- caption  -->
+           <div class="img-caption   py-5 px-2 gap-5 flex justify-center items-center grid grid-cols-1 md:grid-cols-2 mt-8  ">
+            <div> <h3 >Easy & Most Powerful <br> Server Platform</h3>
+             <h6 class=" py-2">by: <span class="text-orange-500"> Jane Meldrum</span></h6>
+            </div>
+            <div class=""><p class="text-justify text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+           </div>
+           </div>
+
+            </div>
+
+            <div class="lastProj-child ">
+          <div class="img-card overflow-hidden"><img src="img/2.jpg" alt="" width="100%" height="100%" class="rounded-lg"></div>
+          <!-- caption -->
+          <div class="img-caption py-5 px-2  gap-5 flex grid grid-cols-1 md:grid-cols-2 mt-8  ">
+           <div> <h3 >Easy & Most Powerful  <br> Server Platform</h3>
+            <h6 class="py-2">by: <span class="text-orange-500"> Jane Meldrum</span></h6>
+           </div>
+           <div class=""><p class=" text-justify text-gray-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          </div>
+          </div>
+
+        
+            </div>
+         </div>
+
+         
+  
+      <!-- icon & button -->
+       <div class="  py-7 flex items-center    grid grid-cols-1 md:grid-cols-2 mt-8  ">
+        <p class="text-lg">View All Cases <span class="bg-orange-500 p-3 rounded-full text-center text-white ms-2 hover:ms-5 transition-all duration-150"><i class="fa-solid fa-arrow-right"></i></span></p>
+        <button class=" mt-5  border border-orange-500 rounded-full text-lg py-5 px-9 hover:border-2 transition-all duration-150  md:mt-0 " >Get Start</button>
+       </div>
+      </div>
+     </section>
+
+
+     <!-- Discover Our Company -->
+     <section class=" Discover bg-gray-100">
+
+      <div class="container  mx-auto p-9 ">
+    
+        <!-- title&img -->
+        <div class="title flex justify-between">
+          <small class=" mt-32">Discover Our Company</small>
+          <img class="w-2/12 h-36 " src="img/deco-1.07790e8b.svg" alt="" srcset="">
+        </div>
+
+        <h2 class=" my-9">How We <span class="text-orange-500"> Collaborate</span> With You</h2>
+       
+        <!-- Discove content -->
+        <div class="discover-content flex gap-7 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+          <!-- 1 -->
+          <div class="discover-child p-3">
+             <small><i class="fa-solid fa-wrench me-3"></i> Thinking Big</small>
+             <p class="text-gray-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="discover-child p-3">
+            <small ><i class="fa-regular fa-flag me-3"></i> Starting Small</small>
+            <p class="text-gray-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+         </div>
+
+         <!-- 3 -->
+         <div class="discover-child p-3">
+          <small ><i class="fa-solid fa-bookmark me-3"></i> Creating Fast</small>
+          <p class="text-gray-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       </div>
+
+       <!-- 4 -->
+       <div class="discover-child p-3">
+        <small><i class="fa-solid fa-cloud me-3"></i> Innovating Scale</small>
+        <p class="text-gray-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+     </div>
+
+
+        </div>
+
+        <!--  -->
+        <div class="  py-7 flex items-center    grid grid-cols-1 md:grid-cols-2 mt-8  ">
+          <p class="text-lg">Learn More <span class="bg-orange-500 p-3 rounded-full text-center text-white ms-2 hover:ms-5 transition-all duration-150"><i class="fa-solid fa-arrow-right"></i></span></p>
+          <button class=" mt-5  border border-orange-500 rounded-full text-lg py-5 px-9 hover:border-2 transition-all duration-150  md:mt-0 " >How We Work</button>
+         </div>
+     
+     
+      </div>
+
+     </section>
+
+
+
+     
+     <!-- Our Skill -->
+     <section class=" Skill  bg-white py-7">
+      
+      <div class="container  mx-auto p-9">
+       
+        <small > Our Skill</small>
+        
+        <div class="flex grid grid-cols-1 gap-5  lg:grid-cols-2">
+          <h2 class=" py-2 ">Business <span class="text-orange-500">Success </span>  With <br>Technology </h2>
+          <p class="text-justify text-gray-400 mt-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content here.</p>
+        </div>
+
+        <!-- skills progress -->
+        <div class="skills-progres flex gap-7 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+          
+          <!--skill child  1-->
+          <div class="skill-child p-3">
+            <h4 class=" pt-9">Software Development</h4>
+            <!--  -->
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 65%;"> </div></div>
+              <span class="text-gray-400">65%</span>
+
+            </div>
+
+
+            <h4 class=" pt-9">Internet of Things</h4>
+            
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 60%;"> </div></div>
+              <span class="text-gray-400">60%</span>
+
+            </div>
+
+          </div>
+
+           <!--skill child  2-->
+           <div class="skill-child p-3">
+            <h4 class=" pt-9">Web Development</h4>
+            <!--  -->
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 90%;"> </div></div>
+              <span class="text-gray-400">90%</span>
+
+            </div>
+
+
+            <h4 class=" pt-9">Artificial Intelligence</h4>
+            
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 90%;"> </div></div>
+              <span class="text-gray-400">90%</span>
+
+            </div>
+
+          </div>
+
+          
+           <!--skill child  3-->
+           <div class="skill-child p-3">
+            <h4 class="pt-9">UX / UI Design</h4>
+            <!--  -->
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 50%;"> </div></div>
+              <span class="text-gray-400">50%</span>
+
+            </div>
+
+
+            <h4 class=" pt-9">Blockchain</h4>
+            
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 80%;"> </div></div>
+              <span class="text-gray-400">80%</span>
+
+            </div>
+
+          </div>
+           <!--skill child  4-->
+           <div class="skill-child p-3">
+            <h4 class=" pt-9">App Development</h4>
+            <!--  -->
+            <div class="flex justify-between items-center gap-9 pt-5">
+
+              <!-- progress -->
+              <div class="h-1 bg-gray-300 w-full"> <div class="h-full bg-orange-500 " style="width: 95%;"> </div></div>
+              <span class="text-gray-400">95%</span>
+
+            </div>
+            <p class="text-lg mt-16 text-center"> More <span class="bg-orange-500 p-3 rounded-full text-center text-white ms-2 hover:ms-5 transition-all duration-150"><i class="fa-solid fa-arrow-right"></i></span></p>
+
+
+          </div>
+          
+
+
+        </div>
+
+
+
+
+      </div>
+
+     </section>
+     
+     <!-- brd -->
+      <div class="brd flex container mx-auto  ">
+        <div class=" border-b-2 b border-orange-500 w-7"></div>
+        <div class=" container mx-2 border-b-2 "></div>
+        <div class=" border-b-2 b border-orange-500 w-7"></div>
+      </div>
+
+<!-- Our Latest News -->
+
+<section class="news bg-white py-7">
+  <div class="container mx-auto p-9">
+    <img src="img/deco-1.07790e8b.svg" alt="" srcset="" class="w-2/12 h-36  ms-auto">
+    
+    <small> Our Latest News</small>
+    <h2 class=" mt-5 ">Latest Thinking</h2>
+
+ <!-- lastnews-content -->
+ <div class="lastnews-content items-center gap-7 flex grid grid-cols-1 md:grid-cols-4 mt-3">
+  
+  <!-- lastnews-child 1 -->
+  <div class="lastnews-child  col-span-2 ">
+ <div class="imgnews-card overflow-hidden mt-24 "><img src="img/1news.jpg" alt="" width="100%" height="100%" class="rounded-lg"></div>
+
+ <!-- caption  -->
+ <div class="imgnews-caption gap-5 flex grid grid-cols-1 md:grid-cols-2 mt-5  ">
+  <div> <h3  >Look At The Sketch Pillow <br> Unique By Scarlet <br> Johanson</h3>
+   <h6>by: <span class="text-orange-500"> Jane Meldrum</span></h6>
+  </div>
+  <div class=""><p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+ </div>
+ </div>
+
+  </div>
+
+   <!-- lastnews-child 2 -->
+  <div class="lastProj-child  ">
+   
+    <!-- caption -->
+    <div class="imgnews-caption pb-7 px-5  mt-0 ">
+      <h3>Print 3d Technology & <br> Simple Design</h3>
+      <p class="text-gray-400 pt-9 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+    </div>
+
+    <div class="imgnews-card overflow-hidden"><img src="img/2 news.jpg" alt="" width="100%" height="100%" class="rounded-lg"></div>
+
+  </div>
+
+
+<!-- lastnews-child 3 -->
+<div class="lastProj-child  ">
+ <!-- img -->
+  <div class="imgnews-card overflow-hidden pb-7 "><img src="img/3news.jpg" alt="" width="100%" height="100%" class="rounded-lg"></div>
+   <!-- caption -->
+  <div class="imgnews-caption  ">
+    <h3 >Sed iaculis massa est, <br> nec rutrum magna</h3>
+  <p class="text-gray-400 pt-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+ 
+
+
+
+
+</div>
+
+</div>
+
+<p class="text-lg mt-16 "> View More Insight<span class="bg-orange-500 p-3 rounded-full text-center text-white ms-2 hover:ms-5 transition-all duration-150"><i class="fa-solid fa-arrow-right"></i></span></p>
+
+ 
+
+
+
+
+
+  </div>
+</section>
+
+
+
+     <!-- Testimonial -->
+     <section class=" testimonial bg-gray-100">
+       <div class="container  mx-auto p-9">
+        <img src="img/deco-1.07790e8b.svg" alt="" srcset="" class="w-2/12 h-36  mx-auto">
+
+         <small> Testimonial</small>
+         <h2 class=" mt-9 ">What Our <span class="text-orange-500">Clients </span> Say</h2>
+      
+         <div class="testimonial-content grid grid-cols-1 md:grid-cols-3 gap-7 mt-9 pt-5">
+         <!-- child -->
+           <div class="p-7">
+             <ul class="flex gap-2 " >
+               <li class=" text-xl"><i class="fa-solid fa-quote-left"></i></li>
+             <li class="text-orange-500"><i class="fas fa-star"></i></li>
+             <li class="text-orange-500"><i class="fas fa-star"></i></li>
+             <li class="text-orange-500"><i class="fas fa-star"></i></li>
+             <li class="text-orange-500"><i class="fas fa-star"></i></li>
+             <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           </ul>
+           <p class="text-gray-500 mb-5 mt-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          
+          <!-- img &caption -->
+           <div class="flex gap-2 items-center">
+             <img src="img/1.jpg" alt="" class="rounded-full w-20 h-20 me-2">
+             <div>
+               <h6 >Margaret Williams</h6>
+               <span class="text-sm text-gray-500">Agency Design</span>
+             </div>
+           </div>
+        
+         </div>
+         <!-- child -->
+         <div class="p-7">
+           <ul class="flex gap-2 ">
+             <li class="text-xl"><i class="fa-solid fa-quote-left"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+         </ul>
+         <p class="text-gray-500 mb-5 mt-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        
+        <!-- img &caption -->
+         <div class="flex gap-2 items-center">
+           <img src="img/2.jpg.crdownload" alt="" class="rounded-full w-20 h-20 me-2">
+           <div>
+             <h6>Margaret Williams</h6>
+             <span class="text-sm text-gray-500">Agency Design</span>
+           </div>
+         </div>
+      
+       </div>
+         <!-- child -->
+         <div class="p-7">
+           <ul class="flex gap-2">
+             <li class=" text-xl"><i class="fa-solid fa-quote-left"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+           <li class="text-orange-500"><i class="fas fa-star"></i></li>
+         </ul>
+         <p class="text-gray-500 mb-5 mt-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        
+        <!-- img &caption -->
+         <div class="flex gap-2 items-center">
+           <img src="img/3.jpg.crdownload" alt="" class="rounded-full w-20 h-20 me-2" >
+           <div>
+             <h6>Margaret Williams</h6>
+             <span class="text-sm text-gray-500">Agency Design</span>
+           </div>
+         </div>
+      
+       </div>
+       
+       </div>
+       
+       </div>
+     </section>
+
+<!-- contact -->
+<section class="contact bg-black py-9 ">
+  <div class="container mx-auto ">
+
+    <!-- title&img -->
+    <div class="title flex justify-between">
+      <h2 class=" my-20">Contact <span class="text-orange-500"> Us</span> </h2>
+    <img class="w-2/12 h-36 " src="img/deco-2.8cba2eb2.svg" alt="" srcset="">
+    </div>
+    
+    
+    <form action=""  class="  flex gap-7 grid grid-cols-1 lg:grid-cols-2">
+      <div class="">
+        <label class="block text-meduim text-white mt-5" for="name">Name <span class="text-orange-500">Required</span> </label>
+      <input class="bg-current border border-gray-600 border-x-0 border-t-0 w-full   mt-9 hover:border-gray-400  transition-all duration-150 "  id="name" type="text"required>
+      
+      <label class="block text-meduim text-white mt-5" for="email">Email Adress <span class="text-orange-500">Required</span> </label>
+      <input class="bg-current border border-gray-600 border-x-0 border-t-0 mt-9 w-full  hover:border-gray-400  transition-all duration-150"  id="email" type="email" required>
+
+      <label class="block text-meduim text-white mt-5" for="name">Phone <span class="text-gray-500">Optional</span> </label>
+      <input class="bg-current border border-gray-600 border-x-0 border-t-0  mt-9 block w-full hover:border-gray-400   transition-all duration-150"  id="name" type="number">
+      <label class="text-meduim text-white mt-5 me-2 hover:text-orange-500  transition-all duration-150"><i class="fas fa-paperclip  "></i> Attach your file </label> 
+      <input class=" bg-current border-x-0 border-y-0 w-2/4 mt-9   " type="file" name="" id=""> 
+      </div>
+      
+      <div>
+      <label class="block text-meduim text-white mt-5" for="email">Email Adress <span class="text-orange-500">Required</span> </label>
+      <textarea class="bg-current border border-gray-600 border-x-0 border-t-0 w-full mt-7 hover:border-gray-400  transition-all duration-150" name="message" rows="10" cols="30"></textarea>
+
+      <p class="text-gray-500  mt-5">We will process your personal information in accordance with our Privacy Policy</p>
+      <input  class="mt-5 accent-orange-500 p-1 "type="checkbox" name="" id=""><label class=" text-white ms-2  mt-5" for="">I would like to be contacted with news and updates about your <span  class="text-orange-500"> events and services</span> </label>
+      </div>
+     
+     
+    </form>
+    <button type="submit" class="block text-meduim mx-auto mt-9 text-center  w-full bg-orange-500 rounded-full p-5 hover:bg-orange-400  transition-all duration-150">  Send Message Now</button>
+
+
+  </div>
+
+</section>
+
+<section class="bf-footer">
+   <div class=" container mx-auto  ">
+    <div  class=" flex  items-center gap-5  lg:gap-20 grid grid-cols-1 lg:grid-cols-3 py-20 ">
+       <!-- 1 -->
+    <div >
+      <img src="img/logo-light.png" alt="" class="w-auto h-8">
+      <p class="text-gray-400 text-meduim text-justify mt-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+   
+      <div class="flex gap-7">
+        <a href="" class=" bg-zinc-700 p-2 mt-5 flex  justify-center items-center gap-1  inline-block ">
+          <i class="fa-brands fa-google-play text-2xl  text-white"></i>  
+          <div class="ms-2"><span  class="text-orange-500" > Avaliable On The </span><br><p class="text-xl text-white"> Google Play</p></div>
+         </a>
+
+         <a href="" class=" bg-zinc-700 p-2 mt-5 flex justify-center items-center gap-1 inline-block  ">
+          <i class="fa-brands fa-apple text-2xl  text-white"></i>  
+          <div class="ms-2"><span  class="text-orange-500" > Download On The </span><br><p class="text-xl text-white"> App Store</p></div>
+         </a>
+
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="mt-0 lg:mt-12">
+      <h3 class=" text-white">Join The  <span class="text-orange-500"> ITSulu</span> <br> Experience</h3>
+      <p class="text-gray-400 text-meduim text-justify mt-7"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+    </div>
+   
+    <!-- 3 -->
+    <div  class="mt-0 lg:mt-12 ">
+      <input class="bg-white text-center text-gray-500 p-5 px-12 rounded-full w-full " type="email" name="" id="" placeholder="Your Email Adress">
+     <button class="bg-orange-500 text-center mt-5 p-5 px-12 rounded-full w-full"> Subscribe Now </button>
+    </div>
+  
+    </div>
+   
+ 
+  
+    <!-- brd -->
+    <div class="brd flex  w-full ">
+      <div class=" border-b-2 border-orange-500 w-7"></div>
+      <div class=" container mx-2 border-b-2  border-gray-500"></div>
+      <div class=" border-b-2 b border-orange-500 w-7"></div>
+    </div>
+   
+
+    <div class="  w-full mx-auto   py-9 grid grid-cols-1  md:flex justify-between ">
+      <ul class="flex gap-7 text-meduim text-white ">
+        <li class="hover:text-orange-400"><a href="http://"> Facebook</a></li>
+        <li class="hover:text-orange-400"><a href="http://">   Instagram</a></li>
+        <li class="hover:text-orange-400"><a href="http://">  LinkedIn</a></li>
+        <li class="hover:text-orange-400"><a href="http://">  Twitter </a></li>
+        <li class="hover:text-orange-400"><a href="http://">    YouTube</a></li>
+      </ul>
+
+      <ul class=" gap-7  text-meduim text-white  mt-7   md:mt-0 flex   ">
+        <li class="hover:text-orange-400 "><a href="http://"> Terms & Condition</a></li>
+        <li class="hover:text-orange-400"><a href="http://"> Privacy Policy </a></li>
+        <li class="hover:text-orange-400"><a href="http://"> Sitemap </a></li>
+      </ul>
+    </div>
+   
+ 
+  </div>
+
+</section>
+
+
+
+     <!-- footer -->
+   <footer class="bg-zinc-800  ">
+       <div class="container mx-auto text-gray-400 flex  justify-between p-9">
+           <p class="">© ITSulu 2023.</p>
+           <p>All Rights Reserved.</p>
+       </div>
+   </footer>
+
+</body>
+</html>
